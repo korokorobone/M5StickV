@@ -258,7 +258,7 @@ def test():
         accel_array = [accel_x*aRes, accel_y*aRes, accel_z*aRes]
 
         if accel_array[2] >= 2 :
-            SE_wav("/sd/ding.wav")
+            SE_wav("/sd/pon.wav")
             kira_flag = 1
 
         gyro = i2c_test.readfrom_mem(memaddr, MPU6886_regmap.GYRO_XOUT_H, 6)
